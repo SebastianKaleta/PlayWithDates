@@ -46,7 +46,7 @@ public class Dates {
         java.io.BufferedReader reader = new java.io.BufferedReader(new InputStreamReader(System.in));
         java.text.SimpleDateFormat simpleDateFormat = new java.text.SimpleDateFormat("dd/mm/yyyy");
         java.util.ArrayList<java.util.Date> list = new java.util.ArrayList<>();
-
+       // java.util.Scanner scaner = new java.util.Scanner(System.in);
 
         try {
             System.out.println("Ile podasz dat?");
@@ -78,6 +78,9 @@ public class Dates {
                     dayInt = Integer.parseInt(reader.readLine());
                     monthInt = Integer.parseInt(reader.readLine());
                     yearInt = Integer.parseInt(reader.readLine());
+//                    dayInt = Integer.parseInt(scaner.next());
+//                    monthInt = Integer.parseInt(scaner.next());
+//                    yearInt = Integer.parseInt(scaner.next());
 
                 } catch (Exception e) {
 
